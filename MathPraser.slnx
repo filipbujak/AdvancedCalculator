@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AdvancedCalculator/AdvancedCalculator.csproj" Id="050d7626-9b58-4426-89d9-581b99a63963" />
+  <Project Path="MathPraser/MathParser.csproj" />
+</Solution>

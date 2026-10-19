@@ -1,0 +1,28 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="420" d:DesignHeight="240"
+        x:Class="AdvancedCalculator.MainWindow"
+        Title="AdvancedCalculator"
+        Width="420" Height="240">
+
+    <StackPanel Margin="20" Spacing="12">
+
+        <TextBox x:Name="InputBox"
+                 Watermark="Wpisz działanie, np. 2+3*4"
+                 FontSize="18" />
+
+        <Button Content="Oblicz"
+                Click="Oblicz_Click"
+                IsDefault="True"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center" />
+
+        <TextBlock x:Name="ResultText"
+                   FontSize="22"
+                   TextWrapping="Wrap" />
+
+    </StackPanel>
+
+</Window>
